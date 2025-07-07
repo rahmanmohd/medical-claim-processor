@@ -8,6 +8,8 @@ COPY medical-claim-frontend/pnpm-lock.yaml ./
 RUN npm install -g pnpm
 RUN pnpm install
 COPY medical-claim-frontend/ ./
+# Ensure the lib directory and utils file exist
+RUN ls -la src/lib/
 RUN pnpm run build
 
 # Python backend stage
