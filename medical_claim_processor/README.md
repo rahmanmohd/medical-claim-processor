@@ -1,9 +1,8 @@
-# 🏥 HealthPay AI - Medical Claim Processor
+# 🏥  Medical Claim Processor
 
 A professional-grade, AI-powered medical claim processing system built with FastAPI, React, and advanced machine learning agents. This system automatically classifies, extracts, validates, and processes medical insurance claims with high accuracy and transparency.
 
-![HealthPay AI Banner](https://img.shields.io/badge/HealthPay-AI%20Powered-blue?style=for-the-badge&logo=medical-cross)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+AI INTEGRATION ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -193,7 +192,10 @@ This project extensively leverages AI tools for development and functionality:
 3. **Cursor AI**
    - **Usage**: Code completion, refactoring, bug fixes
    - **Features**: Intelligent code suggestions, automated testing
-
+  
+4. **TRAE AI**
+    - **Features**: Intelligent code suggestions,bug fixes
+      
 ### **LLM Integration Architecture**
 
 ```python
@@ -337,9 +339,6 @@ src/
 - **Load Balancing**: Multiple backend instances
 - **CDN Integration**: Static asset optimization
 
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 **Contributing**
 
@@ -349,16 +348,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📞 **Support**
-
-For questions, issues, or contributions:
-- **Email**: support@healthpay-ai.com
-- **Issues**: [GitHub Issues](https://github.com/healthpay-ai/medical-claim-processor/issues)
-- **Documentation**: [Full Documentation](https://docs.healthpay-ai.com)
-
----
-
-**Built with ❤️ by the HealthPay AI Team**
-
-*Revolutionizing healthcare claim processing through artificial intelligence*
 
