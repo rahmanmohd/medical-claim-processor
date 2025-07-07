@@ -193,8 +193,7 @@ This project extensively leverages AI tools for development and functionality:
    - **Usage**: Code completion, refactoring, bug fixes
    - **Features**: Intelligent code suggestions, automated testing
   
-4. **TRAE AI**
-    - **Features**: Intelligent code suggestions,bug fixes
+
       
 ### **LLM Integration Architecture**
 
