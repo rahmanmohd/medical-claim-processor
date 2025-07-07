@@ -1,0 +1,17 @@
+services:
+  # Main Web Service - Full Stack Medical Claim Processor
+  - type: web
+    name: medical-claim-processor
+    runtime: docker
+    plan: starter
+    region: oregon
+    branch: main
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: PYTHON_VERSION
+        value: "3.11"
+      - key: NODE_VERSION
+        value: "18"
+    autoDeploy: true
