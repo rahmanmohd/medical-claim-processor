@@ -66,8 +66,7 @@ This system addresses the complex challenge of medical insurance claim processin
 ### **Prerequisites**
 - Python 3.11+
 - Node.js 20+
-- Docker (optional)
-
+- Docker 
 ### **Local Development**
 
 1. **Clone and Setup Backend**
