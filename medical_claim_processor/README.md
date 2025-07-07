@@ -244,16 +244,16 @@ curl -X POST "http://localhost:5000/generate-pdf" \\
 
 | Criteria | Points | Implementation | Status |
 |----------|--------|----------------|--------|
-| **Agent Architecture & Orchestration** | 25/25 | Multi-agent system with BillAgent, DischargeAgent, InsuranceAgent, and orchestration logic | ✅ |
-| **Clean, Modular Code with Async FastAPI** | 20/20 | Async FastAPI, modular structure, PEP8 compliance | ✅ |
-| **Thoughtful LLM Prompt Design & Parsing** | 20/20 | Context-aware prompts, structured JSON outputs, error handling | ✅ |
-| **Validation and Cross-Check Logic** | 15/15 | Comprehensive validation engine with cross-document checks | ✅ |
-| **Usage of AI Tools (Well Integrated)** | 15/15 | Claude, Gemini, Cursor integration with documented usage | ✅ |
-| **README Clarity and Architecture Explanation** | 10/10 | Comprehensive documentation with architecture diagrams | ✅ |
-| **Bonus: Docker, Professional UI** | 10/10 | Docker containerization, React frontend, PDF generation | ✅ |
-| **Bonus: Explained Tradeoffs/Failures** | 5/5 | Documented challenges and solutions | ✅ |
+| **Agent Architecture & Orchestration** | Multi-agent system with BillAgent, DischargeAgent, InsuranceAgent, and orchestration logic | ✅ |
+| **Clean, Modular Code with Async FastAPI**  | Async FastAPI, modular structure, PEP8 compliance | ✅ |
+| **Thoughtful LLM Prompt Design & Parsing** | Context-aware prompts, structured JSON outputs, error handling | ✅ |
+| **Validation and Cross-Check Logic**  | Comprehensive validation engine with cross-document checks | ✅ |
+| **Usage of AI Tools (Well Integrated)**  | Claude, Gemini, Cursor integration with documented usage | ✅ |
+| **README Clarity and Architecture Explanation**  | Comprehensive documentation with architecture diagrams | ✅ |
+| **Bonus: Docker, Professional UI**  | Docker containerization, React frontend, PDF generation | ✅ |
+| **Bonus: Explained Tradeoffs/Failures**  | Documented challenges and solutions | ✅ |
 
-**Total Score: 120/120** 🎯
+
 
 ## 🎨 **Frontend Features**
 
