@@ -2,7 +2,8 @@
 
 A professional-grade, AI-powered medical claim processing system built with FastAPI, React, and advanced machine learning agents. This system automatically classifies, extracts, validates, and processes medical insurance claims with high accuracy and transparency.
 
-AI INTEGRATION ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![AI POWERED](https://img.shields.io/badge/AI%20Powered-blue?style=for-the-badge&logo=medical-cross)
+ ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
