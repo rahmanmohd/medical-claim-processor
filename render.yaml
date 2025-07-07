@@ -1,9 +1,9 @@
 services:
-  # Main Web Service - Full Stack Medical Claim Processor
+  # Main Web Service - Full Stack Medical Claim Processor (FREE TIER)
   - type: web
     name: medical-claim-processor
     runtime: docker
-    plan: starter
+    plan: free
     region: oregon
     branch: main
     healthCheckPath: /health
