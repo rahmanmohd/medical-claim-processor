@@ -242,8 +242,8 @@ curl -X POST "http://localhost:5000/generate-pdf" \\
 
 ## 📊 **Evaluation Criteria Achievement**
 
-| Criteria | Points | Implementation | Status |
-|----------|--------|----------------|--------|
+| Criteria | Implementation |
+|----------|--------|
 | **Agent Architecture & Orchestration** | Multi-agent system with BillAgent, DischargeAgent, InsuranceAgent, and orchestration logic 
 | **Clean, Modular Code with Async FastAPI**  | Async FastAPI, modular structure, PEP8 compliance 
 | **Thoughtful LLM Prompt Design & Parsing** | Context-aware prompts, structured JSON outputs, error handling 
