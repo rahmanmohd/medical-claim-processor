@@ -238,6 +238,8 @@ curl -X POST "http://localhost:5000/generate-pdf" \\
   -d @sample_results.json \\
   --output claim_report.pdf
 ```
+### **ScreenShot UI**
+[![App Screenshot](https://user-images.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/assets/Screenshot2025.png)]
 
 ## 📊 **Evaluation Criteria Achievement**
 
