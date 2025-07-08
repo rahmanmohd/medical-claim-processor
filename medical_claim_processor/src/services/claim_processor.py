@@ -1,3 +1,4 @@
+import asyncio
 import os
 import tempfile
 import uuid
@@ -103,20 +104,28 @@ class ClaimProcessor:
             
         return documents_data
     
-    def _extract_text_from_pdf(self, pdf_path: str) -> str:
+    async def _extract_text_from_pdf(self, pdf_path: str) -> str:
         """
-        Extract text from PDF using pdftotext.
+        Extract text from PDF using pdftotext asynchronously.
         """
+        loop = asyncio.get_event_loop()
         try:
-            result = subprocess.run(
-                ['pdftotext', pdf_path, '-'],
-                capture_output=True,
-                text=True,
-                check=True
+            result = await loop.run_in_executor(
+                None,  # Use the default ThreadPoolExecutor
+                lambda: subprocess.run(
+                    ['pdftotext', pdf_path, '-'],
+                    capture_output=True,
+                    text=True,
+                    check=True
+                )
             )
             return result.stdout
         except subprocess.CalledProcessError:
             return ""
+        finally:
+            # Clean up the temporary PDF file immediately after text extraction
+            if os.path.exists(pdf_path):
+                os.remove(pdf_path)
     
     async def _classify_documents(self, documents_data: List[Dict[str, Any]]) -> List[ClassifiedDocument]:
         """
